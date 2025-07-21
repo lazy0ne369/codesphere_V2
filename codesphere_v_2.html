@@ -1,0 +1,100 @@
+<!-- CodeSphere V2 - index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeSphere</title>
+  <link rel="stylesheet" href="styles_v_2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">CodeSphere</div>
+      <ul class="nav-links">
+        <li><a href="codesphere_v_2.html"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#features"><i class="fa fa-star"></i> Features</a></li>
+        <li><a href="#interactive-courses-section"><i class="fa fa-code"></i> Courses</a></li>
+        <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to CodeSphere</h1>
+      <p>Your journey to coding starts here.</p>
+      <button class="cta-btn" onclick="document.getElementById('interactive-courses-section').scrollIntoView({ behavior: 'smooth' })">
+        Get Started
+      </button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Our Features</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <h3>Interactive Courses</h3>
+        <p>Learn with hands-on examples and real-time feedback.</p>
+      </div>
+      <div class="card">
+        <h3>Expert Instructors</h3>
+        <p>Get guidance from experienced professionals.</p>
+      </div>
+      <div class="card">
+        <h3>Community Support</h3>
+        <p>Join a community of learners to help you grow.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Courses Section -->
+  <section id="interactive-courses-section" class="interactive-courses-section">
+    <h2>Interactive Courses</h2>
+    <div class="tabs">
+      <button class="tab" data-lang="c">C</button>
+      <button class="tab" data-lang="cpp">C++</button>
+      <button class="tab" data-lang="sql">SQL</button>
+      <button class="tab" data-lang="java">Java</button>
+    </div>
+    <div class="tab-content" id="c">
+      <p>Learn the basics of C programming language.</p>
+      <a class="link-btn" href="c_course.html">LINK</a>
+    </div>
+    <div class="tab-content" id="cpp">
+      <p>Learn the basics of C++ programming language.</p>
+      <a class="link-btn" href="cpp_course.html">LINK</a>
+    </div>
+    <div class="tab-content" id="sql">
+      <p>Learn the basics of SQL programming language.</p>
+      <a class="link-btn" href="sql_course.html">LINK</a>
+    </div>
+    <div class="tab-content" id="java">
+      <p>Learn the basics of Java programming language.</p>
+      <a class="link-btn" href="java_course.html">LINK</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you. Reach out to us anytime!</p>
+    <div class="contact-details">
+      <p>Email: <a href="mailto:support@codesphere.com">support@codesphere.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 CodeSphere. All Rights Reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
